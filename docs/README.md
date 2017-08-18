@@ -75,7 +75,7 @@ declares a variable named `radius` that can store any _value_ of type `double`.
 The above declaration is also a _definition_ in that it assigns memory for the variable `radius`. The memory location however, has no particular initial value and so is said to be _uninitialized_. You should avoid uninitialized variables by defining an appropriate initial value. For example:
 
 ```c++
-double volume{ 4 * PI * radius * radius * radius / 3 };
+double volume{4 * PI * radius * radius * radius / 3};
 ```
 
 This assumes, of course, `PI` and `radius` have already been defined.
