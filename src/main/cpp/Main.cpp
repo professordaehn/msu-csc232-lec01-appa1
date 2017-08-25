@@ -2,26 +2,18 @@
  * CSC232 Data Structures with C++
  * Missouri State University, Fall 2017
  *
- * @file    Main.cpp
+ * @file Main.cpp
  * @authors Jim Daehn <jdaehn@missouristate.edu>
- *          Frank M. Carrano
- *          Timothy M. Henry
- * @brief   Entry point for this application; a modified version of Figure A-1, page 715 accommodated for lecture 1.
+ *          Your Name <yname@missouristate.edu>
+ *          Partner Name <pname@missouristate.edu>
+ * @brief   Entry point for this application. This is nothing more than a playground.
  */
 
 #include <cstdlib>
 #include <iostream>
 
-int main() {
-    // Computes the volume of a sphere of a given radius
-    const double PI = 3.14159;
-    double radius;
-
-    std::cout << "Enter the radius of the sphere: ";
-    std::cin >> radius;
-
-    double volume{4 * PI * radius * radius * radius / 3};
-    std::cout << "The volume of a sphere of radius " << radius << " inches is " << volume << " cubic inches.\n";
+int main(int argc, char **argv) {
+    std::cout << "Hello, Main" << std::endl;
 
     return EXIT_SUCCESS;
 }
